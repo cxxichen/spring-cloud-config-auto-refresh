@@ -1,2 +1,10 @@
 spring:
   application.name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/cxxichen/spring-cloud-config-auto-refresh/
+          search-paths: config-repo
+          username: cxxichen
+          password: chenxi128

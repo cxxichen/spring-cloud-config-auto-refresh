@@ -1,0 +1,9 @@
+spring:
+  application.name: config-client
+  cloud:
+    config:
+      enabled: true
+      failfast: true
+      discovery:
+        enabled: true
+        serviceId: config-server
