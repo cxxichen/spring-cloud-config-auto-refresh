@@ -8,3 +8,12 @@ eureka:
 
 management.endpoints.web.exposure.include: '*'
 management.endpoints.web.base-path: /
+management.security.enabled: false
+spring.cloud.bus.trace.enabled: true
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
