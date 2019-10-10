@@ -6,5 +6,5 @@ spring:
         git:
           uri: https://github.com/cxxichen/spring-cloud-config-auto-refresh/
           search-paths: config-repo
-          username: cxxichen
-          password: chenxi128
+          username: ********
+          password: ********

@@ -6,15 +6,16 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
-#management.endpoints.web.exposure.include: '*'
-#management.endpoints.web.base-path: /
-#
-#spring:
-#  cloud:
-#    config:
-#      server:
-#        git:
-#          uri: https://github.com/cxxichen/spring-cloud-config-auto-refresh
-#          search-paths: config-repo
-#          username: cxxichen
-#          password: chenxi128
+management.endpoints.web.exposure.include: '*'
+management.endpoints.web.base-path: /
+
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  security:
+    enabled: false
